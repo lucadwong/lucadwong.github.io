@@ -1,0 +1,99 @@
+.title 
+{
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+
+}
+
+.text
+{
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+    font-size: 18px;
+}
+
+.card-title
+{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.section-heading
+{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.card-text
+{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 16px;
+}
+
+.indented-text
+{
+    margin-left: 25px;
+}
+
+.article-title
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main {
+    display: table-cell;
+    vertical-align:middle;
+} 
+
+
+/* Card Expansion */
+
+.grow:hover { 
+    transform: scale(1.03); 
+    transition: all .2s ease-in-out; 
+}
+
+.card { 
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+    cursor: pointer;
+    overflow: scroll
+}
+
+/* RESUME DOWNLOAD */
+
+a:hover{
+    color: white;
+}
+
+/* BOTTOM PANEL */
+
+.bottom-text{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 18px;
+}
+
+#home
+{
+    display: block
+}
+
+/* SWITCHING TABS */
+#coursework, #research, #projects, #about
+{
+    display: none
+}
+
+.author, .barnes, .flowers1, .flowers2, .prince{
+    color: black
+}
+
+/* ANCHOR LINKS */
+a, a:hover{
+    color: white
+}
